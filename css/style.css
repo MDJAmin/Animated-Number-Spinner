@@ -50,9 +50,10 @@ flex-direction: column-reverse;
 .progress #meter{
     position: absolute;
     width: 100%;
-    background: greenyellow;
-    border-radius: 30px;
-    filter: drop-shadow(0 0 3.5 #0f0 ) drop-shadow(0 0 10px #0f0);
+    height: 0.01px;
+    background: #0f0;
+    border-radius: 30px !important;
+    filter: drop-shadow(0 0 2.5px #0f0) drop-shadow(0 0 10px #0f0);
     transition: all .5s;
 }
 
