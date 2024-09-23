@@ -16,4 +16,14 @@ if(spinnerValue >= 7 ){
 output.innerHTML = ++spinnerValue;
 meter.style.height = spinnerValue*10+"%"
 }
-
+function minus(){
+    if(spinnerValue<= 0 ){
+        return false;
+    }
+    if(spinnerValue <= 7 ){
+        meter.style.background = "#0f0"
+        meter.style.filter = "drop-shadow(0 0 2.5px #0f0) drop-shadow(0 0 10px #0f0)"
+    }
+    output.innerHTML= --x;
+    meter.style.height = x*10+'%' ;
+}
